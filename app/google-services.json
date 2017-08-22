@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "600714538544",
+    "firebase_url": "https://efoodadditive.firebaseio.com",
+    "project_id": "efoodadditive",
+    "storage_bucket": "efoodadditive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600714538544:android:bbd361d12711a468",
+        "android_client_info": {
+          "package_name": "e_food_additive.zenolbs.com.efoodadditive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600714538544-vsh3qknv1btgvjj1stdpsrgriqlb9t0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e_food_additive.zenolbs.com.efoodadditive",
+            "certificate_hash": "769ffc4eaabe139bee0290e45fba949ef2f874e0"
+          }
+        },
+        {
+          "client_id": "600714538544-q292j2bs02i1olhd8tr71pl6kbfmi0k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDujYderj0T4aVxE4EtQOf_SW-S3TjNgus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600714538544-q292j2bs02i1olhd8tr71pl6kbfmi0k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

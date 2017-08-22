@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    Для каждого элемента настройки необходимо определить, как минимум, три атрибута:
+
+android:key: устанавливает ключ настройки в SharedPreferences
+
+android:title: название настройки для пользователя
+
+android:summary: краткое описание по данной настройке для пользователя
+    -->
+    <!--
+    CheckBoxPreference: используется элемент CheckBox
+    для установки логических значений true или false
+
+    -->
+    <!--
+    <CheckBoxPreference
+        android:key="chb1"
+        android:summary="@string/checkbox1_summary"
+        android:title="@string/checkbox1_title">
+    </CheckBoxPreference>
+    -->
+    <CheckBoxPreference
+        android:key="chb_animation"
+        android:summary="@string/checkbox2_summary"
+        android:title="Анимация cписка">
+    </CheckBoxPreference>
+    <ListPreference
+        android:dependency="chb_animation"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="list_chooser"
+        android:summary="@string/list1_summary"
+        android:title="@string/list1_title">
+    </ListPreference>
+    <!--
+    <CheckBoxPreference
+        android:key="chb3"
+        android:summary="@string/checkbox3_summary"
+        android:title="Темный фон">
+    </CheckBoxPreference>
+    -->
+    <!--
+    <EditTextPreference
+        android:key="address1"
+        android:summary="@string/edittext1_summary"
+        android:title="@string/edittext1_title">
+    </EditTextPreference>
+    <ListPreference
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="list1"
+        android:summary="@string/list1_summary"
+        android:title="@string/list1_title">
+    </ListPreference>
+    -->
+</PreferenceScreen>

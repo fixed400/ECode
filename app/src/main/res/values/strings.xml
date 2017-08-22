@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">E Добавки</string>
+    <!-- <string codeNumber="app_name">E Food Additive</string> -->
+    <string name="action_settings">Settings</string>
+    <string name="no_such_page">Нету такой страницы&#8230;</string>
+    <string-array name="views_array">
+        <item>Классификация по номерам</item>
+        <item>О пищевых добавках</item>
+        <item>Кодекс Алиментариус </item>
+
+    </string-array>
+    <string name="menu">Меню</string>
+    <string name="first_screen">Первый экран</string>
+    <string name="second_screen">Второй экран</string>
+    <string name="third_screen">Третий экран</string>
+    <string name="four_screen">4 экран</string>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_app">Даннвя программа программа содержит список пищевых добавок.
+    Элементы окрашеный по цветам:Зеленый(считаются безвредными или низко опасны),Красный(запрещенные или опасные) и Желтый(нейтроалые).
+    Информация о добавках может быть не точной или устаревшой!
+    Соглашаясь использовать данную программу Вы соглашаетесь что информация может быть не точной или устаревшой!
+    Автор программы не несет ни какой оветсвенности за злоупотреблением пищевых добавок в пищу!</string>
+    <!-- Проверка ListFRAGMENT -->
+    <string name="number_list">Список чисел</string>
+    <string name="empty">Нет данных</string>
+
+    <string name="text102">
+        Пищевыми добавками называются различные вещества, добавляемые в продукты с целью улучшения
+        их вкуса,
+        цвета, придания им особой текстуры, увеличения срока хранения.
+Международные стандарты на пищевые добавки и примеси определяются
+        Объединенным комитетом экспертов Международной сельскохозяйственной организации (JECFA)
+        и Кодексом Алиментариус (Codex Alimentarius), принятым Международной комиссией ФАО/ВОЗ
+        и обязательным к исполнению странами, входящими в ВТО.
+Для классификации пищевых добавок в странах Евросоюза разработана система нумерации
+        (действует с 1953 года). Каждая добавка имеет уникальный номер, начинающийся с буквы «E».
+        Система нумерации была доработана
+        и принята для международной классификации Кодекс Алиментариус.
+    </string>
+    <string name="text103">
+        Кодекс Алиментариус  — это свод пищевых международных стандартов,
+        принятых Международной комиссией ФАО/ВОЗ по внедрению кодекса стандартов
+        и правил по пищевым продуктам.
+        Стандарты Кодекса охватывают основные продукты питания — как обработанные и полуфабрикаты,
+        так и необработанные.
+а 2012 год в состав комиссии входило 186 стран и Евросоюз.
+        Статус наблюдателей кодекса имело 215 организаций (межправительственных,
+        неправительственных и органов ООН)
+Комиссия по Codex Alimentarius была образована
+        под влиянием фармацевтической промышленности в 1963 году,
+        во исполнение резолюций, принятых в 1961 году на одиннадцатой
+        сессии конференции ФАО при ООН и на шестнадцатой ассамблее ВОЗ.
+    </string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-9704805163544705/8067252679</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- ***********************PREFERENCE******************** -->
+    <string name="checkbox1_title">Темный фон меню</string>
+    <string name="checkbox1_summary">Summary of CheckBox 1</string>
+    <string name="checkbox2_title">Темный фон меню</string>
+    <string name="checkbox2_summary">Set on/off</string>
+    <string name="checkbox3_title">Темный фон меню</string>
+    <string name="checkbox3_summary">Summary of CheckBox 3</string>
+    <string name="edittext1_title">EditText 1</string>
+    <string name="edittext1_summary">Summary of EditText 1</string>
+    <string name="list1_title">Выбор анимации</string>
+    <string name="list1_summary">Выбрать эффект из списка</string>
+    <string-array name="entries">
+        <item>increase</item>
+        <item>protrusion</item>
+        <item>descent</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

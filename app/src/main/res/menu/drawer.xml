@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/list_item_attachment"
+            android:checked="true"
+            android:icon="@drawable/ic_menu"
+            android:title="Список" />
+        <item
+            android:id="@+id/item_2_attachment"
+            android:icon="@drawable/ic_menu"
+            android:title="О пищевых добавках" />
+        <item
+            android:id="@+id/item_3_attachment"
+            android:icon="@drawable/ic_menu"
+            android:title="Кодекс Алиментариус" />
+    </group>
+
+    <item android:title="Меню">
+        <menu>
+
+            <item
+                android:id="@+id/my_item2"
+                android:icon="@drawable/ic_menu"
+                android:title="Настройки" />
+
+        </menu>
+    </item>
+
+</menu>
