@@ -146,6 +146,7 @@ public class MyRVAdapter extends RecyclerView.Adapter<MyRVAdapter.ViewHolder> {
      * - Pass clickListener interface as parameter
      * */
     //public static interface OnItemTouchListener
+        /*
     class RecyclerTouchListener implements RecyclerView.OnItemTouchListener{
 
         private EFragment.ClickListener clicklistener;
@@ -190,7 +191,7 @@ public class MyRVAdapter extends RecyclerView.Adapter<MyRVAdapter.ViewHolder> {
 
         }
     } //------------END----CLASS--RecyclerTouchListener
-
+*/
     //------------------------------------------------------
 
     /**

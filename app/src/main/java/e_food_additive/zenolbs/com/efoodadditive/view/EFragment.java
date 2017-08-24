@@ -30,9 +30,8 @@ import e_food_additive.zenolbs.com.efoodadditive.model.E;
 import e_food_additive.zenolbs.com.efoodadditive.controller.MainActivity;
 import e_food_additive.zenolbs.com.efoodadditive.R;
 import e_food_additive.zenolbs.com.efoodadditive.model.References;
-
-
-
+import e_food_additive.zenolbs.com.efoodadditive.view.adapter.MyRVAdapter;
+import e_food_additive.zenolbs.com.efoodadditive.view.adapter.RecyclerTouchListener;
 
 
 /**
@@ -168,6 +167,8 @@ public class EFragment extends Fragment implements SearchView.OnQueryTextListene
     }
     //---------------------------------------
 
+    /*
+
     private static class MyRVAdapter extends RecyclerView.Adapter<MyRVAdapter.ViewHolder> {
 
         private List<E> eList = null;
@@ -281,7 +282,7 @@ public class EFragment extends Fragment implements SearchView.OnQueryTextListene
         }
     }
 
-
+*/
     //=================================Cлушатель нажатий RecyclerVIEW ============
 
     /**
@@ -291,6 +292,7 @@ public class EFragment extends Fragment implements SearchView.OnQueryTextListene
      * - Pass clickListener interface as parameter
      * */
     //public static interface OnItemTouchListener
+        /*
     class RecyclerTouchListener implements RecyclerView.OnItemTouchListener{
 
         private ClickListener clicklistener;
@@ -337,7 +339,7 @@ public class EFragment extends Fragment implements SearchView.OnQueryTextListene
     } //------------END----CLASS--RecyclerTouchListener
 
     //------------------------------------------------------
-
+*/
     /**
      * RecyclerView: Implementing single listChooserItem click and long press (Part-II)
      *
