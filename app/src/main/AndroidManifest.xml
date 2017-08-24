@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".controller.MainActivity" />
-        <activity android:name=".not_used.dyes_e100_e199.E100" />
+
         <activity android:name=".controller.AssetLoad" />
 
         <!--Include the AdActivity configChanges and theme. -->
