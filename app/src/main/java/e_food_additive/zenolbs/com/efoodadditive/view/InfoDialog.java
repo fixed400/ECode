@@ -11,6 +11,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.text.SpannableString;
 import android.text.util.Linkify;
 import android.util.Log;
@@ -19,12 +20,11 @@ import android.util.Log;
 
 public  class InfoDialog extends DialogFragment {
 
-    // @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-        // Linkify the message
+
         final SpannableString link = new SpannableString("https://www.bank.gov.ua");
         Linkify.addLinks(link, Linkify.ALL);
 
@@ -56,8 +56,7 @@ public  class InfoDialog extends DialogFragment {
                         "Усиливают естественные вкус и запах продукта. Применяются в блюдах фастфудов и восточной кухни.\n" +
                         "\n" +
                         "Е900 и далее — распушители, сахарозаменители ")
-             //   .setMessage(Html.fromHtml("<a href=\"https://www.bank.gov.ua\">Check this link out</a>"))
-               // .setMessage(link)
+
 
                 .setNeutralButton("Ok", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {

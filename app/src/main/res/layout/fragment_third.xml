@@ -6,29 +6,7 @@
     android:background="#FFDCD8C8"
     tools:context="e_food_additive.zenolbs.com.efoodadditive.view.ThirdFragment">
 
-    <!--
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp">
 
-        <android.support.v4.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:padding="20dp"
-            android:layout_height="30dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:text="@string/text103"/>
-        </android.support.v4.widget.NestedScrollView>
-    </ScrollView>
-
-    -->
 
 
     <android.support.v4.widget.NestedScrollView

@@ -7,35 +7,6 @@
 
 
 
-    <!--
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:text="@string/text102"/>
-    </ScrollView>
-
-    -->
-
-    <!--
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER">
-    </com.google.android.gms.ads.AdView>
-    -->
-
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -33,6 +33,7 @@ android:summary: краткое описание по данной настро�
         android:entries="@array/entries"
         android:entryValues="@array/entry_values"
         android:key="list_chooser"
+        android:defaultValue="20"
         android:summary="@string/list1_summary"
         android:title="@string/list1_title">
     </ListPreference>
@@ -57,4 +58,6 @@ android:summary: краткое описание по данной настро�
         android:title="@string/list1_title">
     </ListPreference>
     -->
+
+
 </PreferenceScreen>

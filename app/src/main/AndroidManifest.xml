@@ -20,15 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".controller.MainActivity" />
-
-        <activity android:name=".controller.AssetLoad" />
+        <activity android:name=".controller.MainActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".controller.AssetLoader" />
 
         <!--Include the AdActivity configChanges and theme. -->
         <activity android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
     </application>
+
 
 
 </manifest>

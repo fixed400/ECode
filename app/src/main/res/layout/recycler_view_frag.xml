@@ -15,21 +15,15 @@
  limitations under the License.
 -->
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
 
-    <!-- not work
-    try using
-    app:actionViewClass="android.support.v7.widget.SearchView"
-    <android.support.v7.widget.SearchView
-        android:id="@+id/search_view7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    -->
+
 
     <SearchView android:textColorHint="#e4c6c4c4"
         android:id="@+id/search_view"
@@ -44,17 +38,23 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-    <!--
+        android:layout_height="368dp"
+        android:layout_weight="0"
+        android:layout_below="@+id/search_view"
+        android:layout_alignParentBottom="true" />
+
+
+
+     <!--
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id">
-    </com.google.android.gms.ads.AdView>
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
 
     -->
-</LinearLayout>
+</RelativeLayout>

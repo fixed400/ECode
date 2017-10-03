@@ -9,7 +9,7 @@ import e_food_additive.zenolbs.com.efoodadditive.controller.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
-    // Splash screen timer
+
     private static int SPLASH_TIME_OUT = 1200;
 
     @Override

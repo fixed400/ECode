@@ -82,15 +82,9 @@
         </FrameLayout>
 
 
-
-
-
-
-
-
-
-
     </android.support.design.widget.CoordinatorLayout>
+
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
@@ -100,4 +94,6 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/drawer_header"
         app:menu="@menu/drawer"/>
+
+
 </android.support.v4.widget.DrawerLayout>

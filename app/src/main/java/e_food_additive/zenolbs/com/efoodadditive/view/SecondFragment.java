@@ -24,8 +24,9 @@ import com.google.android.gms.ads.MobileAds;
 import e_food_additive.zenolbs.com.efoodadditive.R;
 
 
-//import android.support.v4.app.Fragment;
+
 public class SecondFragment extends Fragment  {
+
     private static final String TAG = "myLogs";
 
     Activity activity;
@@ -36,8 +37,6 @@ public class SecondFragment extends Fragment  {
         activity = getActivity();
 
         View rootView = inflater.inflate(R.layout.fragment_second, container, false);
-
-      //  MobileAds.initialize(getActivity().getApplicationContext(), "ca-app-pub-9704805163544705~6590519476");
 
         AdView adView = (AdView) rootView.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

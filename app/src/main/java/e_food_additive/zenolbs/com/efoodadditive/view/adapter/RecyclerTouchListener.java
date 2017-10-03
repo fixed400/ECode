@@ -6,18 +6,18 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import e_food_additive.zenolbs.com.efoodadditive.view.EFragment;
+import e_food_additive.zenolbs.com.efoodadditive.view.adapter.ClickListener;
 
 /**
- * Created by fixoid on 8/24/17.
+ * Created by grd on 9/17/17.
  */
 
 public class RecyclerTouchListener implements RecyclerView.OnItemTouchListener{
 
-    private EFragment.ClickListener clicklistener;
+    private ClickListener clicklistener;
     private GestureDetector gestureDetector;
 
-    public RecyclerTouchListener(Context context, final RecyclerView recycleView, final EFragment.ClickListener clicklistener){
+    public RecyclerTouchListener(Context context, final RecyclerView recycleView, final ClickListener clicklistener){
 
         this.clicklistener=clicklistener;
         gestureDetector=new GestureDetector(context,new GestureDetector.SimpleOnGestureListener(){
@@ -55,5 +55,8 @@ public class RecyclerTouchListener implements RecyclerView.OnItemTouchListener{
     public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
 
     }
-} //------------END----CLASS--RecyclerTouchListener
+}
+
+
+
 
